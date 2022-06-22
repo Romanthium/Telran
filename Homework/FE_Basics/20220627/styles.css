@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --lightskyblue: lightskyblue;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-container {
+  margin-top: 3rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: rgb(61, 66, 116);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.avatar-container {
+  margin: 2rem 0;
+}
+
+.avatar {
+  width: 10rem;
+  border-radius: 12px;
+  background: var(--lightskyblue);
+}
+
+.content {
+  width: 30rem;
+  margin: auto;
+  background: #f7f7f7;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px #00000021;
+}
+
+.main-info {
+  text-align: justify;
+  color: var(--lightskyblue);
+  font-weight: 600;
+}
+
+.contact-text {
+  font-weight: 400;
+  color: rgb(61, 66, 116);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.more-info-link {
+  display: inline-block;
+  color: var(--lightskyblue);
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  border-radius: 1.5rem;
+  background: none;
+  text-decoration: none;
+}
+
+.more-info-link:hover {
+  color: white;
+  background: var(--lightskyblue);
+}
