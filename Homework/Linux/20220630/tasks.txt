@@ -1,0 +1,23 @@
+Подключение к удалённому серверу с указанием имени пользователя (user_login) и имени сервера (host_name.com)
+ssh user_login@host_name.com
+
+Вывести 2 (вместо 10) последние строки из файла test.txt
+tail test.txt -n 2
+
+Найти в файле test.txt строки, не совпадающие со словом "halo" в любом регистре
+grep -i -v 'halo' test.txt
+
+Найти скрытые папки в текущей папке
+find -type d -name ".*"
+
+Определить тип файла mysql-apt-config_0.8.22-1_all.deb
+file mysql-apt-config_0.8.22-1_all.deb
+
+Вывод содержимого файла test.txt с нумерацией выводимых строк
+cat -n test.txt
+
+Создание подпапкиnew_dir в папке test_dir
+mkdir test_dir/new_dir
+
+Вывести все файлы и папки списков в human-представлении из папки .git
+ls -lah .git
